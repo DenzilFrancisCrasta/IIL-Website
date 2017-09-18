@@ -1,0 +1,46 @@
+/* dropshadow for the fixed top navbar */
+.navbar.with-shadow {
+ -webkit-box-shadow: 0 6px 6px -6px #bbb;
+ -moz-box-shadow: 0 6px 6px -6px #bbb;
+  box-shadow: 0 6px 6px -6px #bbb;
+  opacity: 0.9;
+}
+
+/* logo tail de-highlight */
+.logotext-tail {
+    color: #888;
+    font-weight: normal;
+    padding-left: 2px;
+    font-size:0.85em;
+}
+
+#research-areas-carousel {
+    margin-top:8px;
+}
+
+#research-areas-carousel a.btn-primary,#research-areas-carousel a.btn-primary:focus  {
+    background-color:transparent;
+    border-color:#fff;
+}
+
+.navbar-nav > li  {
+    margin-left:20px;
+}
+
+.navbar-light .navbar-brand {
+    font-weight: bold;
+    color: rgba(36, 78, 179, 0.9)
+}
+
+.nav-link {
+    font-weight :bold;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav > li {
+        margin-left : 0px;
+    }
+
+}
