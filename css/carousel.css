@@ -16,12 +16,31 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
+
+.carousel .btn-lg {
+    font-size:1.1rem;
+    padding:.3rem .8rem;
+}
+
+.carousel h1 {
+    font-size: 2.1rem;
+    margin-bottom:15px;
+}
+
+.carousel p {
+width:70%;
+}
+
+
+
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  bottom: 3rem;
+  top: 3rem;
+  left:11.5%;
 }
 
 /* Declare heights because of positioning of img element */
@@ -38,7 +57,14 @@ body {
   height: 25rem;
 }
 
+.carousel-indicators > li {
+  cursor:pointer;
 
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width:12%;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
