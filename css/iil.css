@@ -32,9 +32,6 @@
     color: rgba(36, 78, 179, 0.9)
 }
 
-.nav-link {
-    font-weight :bold;
-}
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color : rgba(206, 88, 1, 0.9);
@@ -70,8 +67,27 @@
   text-decoration:underline;
 }
 
+.news .card-subtitle {
+  font-size:0.9rem;
+}
 .news .card-body {
   padding : 1.5rem;
+}
+
+.events a.card-title {
+  font-size:0.95em;
+
+}
+.calbox {
+  font-size:0.9rem;
+  font-weight: bold;
+}
+
+footer {
+  font-size:0.9em;
+  padding-top:1rem;
+  margin-top:2rem;
+  border-top:1px solid #ccc;
 }
 
 @media (max-width: 768px) {
@@ -89,5 +105,9 @@
 width: 100%;
     }
 
+    .section-title{
+        text-align:center;
+    
+    }
 
 }
