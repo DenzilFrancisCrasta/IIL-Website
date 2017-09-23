@@ -29,7 +29,8 @@
 
 .navbar-light .navbar-brand {
     font-weight: bold;
-    color: rgba(36, 78, 179, 0.9)
+    color:black;
+    /*color: rgba(36, 78, 179, 0.9)*/
 }
 
 
